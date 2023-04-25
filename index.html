@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ea5b5165f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="images/udaylogo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Pretfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend & Backend Developer</p>
+            <h1>Hi, I,m <span>Uday</span><br> Sharma From India</h1>
+        </div>
+      </div>
+    </div>
+        <!----------------About--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/meuser.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>With the knowledge and skills in Engineering, 
+                        I will contribute for the success of the With the
+                         knowledge and skills in Engineering, 
+                         I will contribute for the success of the organization and 
+                         to secure a challenging position where I can effectively 
+                         contribute my skills as professional possessing competent 
+                         technical skills</p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Computer Diploma</span><br>Basic, DTP, Multimedia </li>
+                                <li><span>WEB Developer</span><br>Front-End</li>
+                                <li><span>WEB Developer</span><br>Back-End </li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>WEB Developer</span><br>Designing Web </li>
+                                <li><span>WEB Developer</span><br>Designing Web </li>
+                                <li><span>WEB Developer</span><br>Designing Web </li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Diploma In Engineering</span><br>Mechanical Engineering</li>
+                                <li><span>B-Tech</span><br>Mechanical Engineering</li>
+                                <li><span>Full Stack Developer</span><br>Testbook Skill Academy </li>
+                            </ul>
+                         </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <!----------------Services--------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque suscipit adipisci porro non numquam perspiciatis dolorum modi 
+                        excepturi quo impedit temporibus nesciunt, et reprehenderit tempora 
+                        sint, ea provident ipsum error.</p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Front-End Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque suscipit adipisci porro non numquam perspiciatis dolorum modi 
+                        excepturi quo impedit temporibus nesciunt, et reprehenderit tempora 
+                        sint, ea provident ipsum error.</p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Back-End Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque suscipit adipisci porro non numquam perspiciatis dolorum modi 
+                        excepturi quo impedit temporibus nesciunt, et reprehenderit tempora 
+                        sint, ea provident ipsum error.</p>
+                        <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------Portfolio 54--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>eCommerce website</h3>
+                        <p>Online store website templates include customizable eCommerce features, like category pages and menu bars with business information. In addition, secure checkout is built right now to keep customer information safe from hackers or data breaches.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Portfolio website</h3>
+                        <p>Use a portfolio template to highlight who you are as well as your professional accomplishments. Or gain more web design inspiration from our website examples. </p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Business website</h3>
+                        <p>Use a customizable business website template to create a digital space introducing your brand and what you do. If relevant, you can also add a booking system or scheduling software that enables customers to easily reserve an appointment. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!----------------Contact--------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>udsharma098@gmail.com</p>
+                    <p><i class="fa-duotone fa-phone"></i>8961712913</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100006007299819&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/udaysharmaaa?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/udaysharma997/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/My-Resume.pdf" download class="btn btn2">Download</a>
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Eamil" placeholder="Your Email" required>
+                    <textarea name="Massage" rows="6" placeholder="Your Massage" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Uday. Made With<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+            <!----------------Scripts--------------------->
+    <script src="scripts.js"></script>
+</body>
+</html>
